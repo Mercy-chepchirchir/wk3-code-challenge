@@ -78,7 +78,6 @@ function displayFilmList(film){
         button.style.width="150px"
         button.style.height="50px"
         button.style.fontSize="20px"
-
         //adding event listener to the button 
         button.addEventListener("click", function(){
 
