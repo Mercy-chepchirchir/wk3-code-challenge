@@ -36,7 +36,7 @@ function displayFilmList(film){
         e.preventDefault()
 
 
-        //creating variables for the objects in the json file
+      
         const name = document.querySelector("#headers h3")
         name.innerHTML=`${film.title}`
         console.log(name)
