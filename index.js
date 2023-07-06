@@ -4,7 +4,6 @@
     films.forEach((film)=>displayFilmList(film))
 }) 
 
-//creating a variable for menu
 const menu = document.getElementById("menu")
 const filmList =document.getElementById("filmlist")
 
