@@ -1,10 +1,8 @@
-//fetching data from json file 
-fetch('http://localhost:3000/films')
+ fetch('http://localhost:3000/films')
 .then(res=> res.json())
 .then(films=>{
     films.forEach((film)=>displayFilmList(film))
 }) 
-
 
 //creating a variable for menu
 const menu = document.getElementById("menu")
