@@ -41,6 +41,7 @@ function displayFilmList(film){
         name.innerHTML=`${film.title}`
         console.log(name)
 
+
         //displaying the run time
         const runtime =document.getElementById("runtime")
         console.log(runtime)
@@ -65,7 +66,7 @@ function displayFilmList(film){
         const description = document.querySelector("p")
         description.textContent=`description : ${film.description}`
 
-        //creating a button using inner html
+        
         const mybutton = document.getElementById("mybutton")
         mybutton.innerHTML=`
         <button id="button">BUY TICKET</button>
