@@ -21,6 +21,7 @@ menu.addEventListener("click", function(){
 function displayFilmList(film){
     
  //creating a li element
+ 
     const listName = document.createElement("li")
     filmList.appendChild(listName)
 
