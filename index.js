@@ -41,7 +41,7 @@ function displayFilmList(film){
         name.innerHTML=`${film.title}`
         console.log(name)
 
-
+        
         //displaying the run time
         const runtime =document.getElementById("runtime")
         console.log(runtime)
