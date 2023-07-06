@@ -8,7 +8,6 @@ const menu = document.getElementById("menu")
 const filmList =document.getElementById("filmlist")
 
 //adding event listener to the menu 
-//when clicked it will display or not if clicked again
 menu.addEventListener("click", function(){
     if(filmList.style.display!=="none"){
         filmList.style.display="none"
